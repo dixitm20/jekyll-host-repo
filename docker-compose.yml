@@ -3,7 +3,7 @@ services:
   jekyll-serve:
     image: jekyll/jekyll:latest
     volumes:
-      - "./epl-leaderboard:/srv/jekyll"
+      - "./docs:/srv/jekyll"
     ports:
       - 4000:4000
     command: 'jekyll serve'
