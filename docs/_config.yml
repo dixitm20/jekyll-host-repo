@@ -19,7 +19,7 @@ github_username:  wild-flame
 
 # Build settings
 markdown: kramdown
-theme: Architect
+theme: jekyll-theme-cayman
 kramdown:
   input: GFM
 
